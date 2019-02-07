@@ -51,7 +51,7 @@ class Home extends Component {
     return (
       <Layout location={location}>
         <TitleAndMetaTags
-          title="React &ndash; A JavaScript library for building user interfaces"
+          title="React &ndash; ユーザーインターフェイス構築のための JavaScript ライブラリ"
           ogUrl={createOgUrl('index.html')}
         />
         <div css={{width: '100%'}}>
@@ -134,7 +134,7 @@ class Home extends Component {
                         fontSize: 30,
                       },
                     }}>
-                    A JavaScript library for building user interfaces
+                    ユーザーインターフェイス構築のための JavaScript ライブラリ
                   </p>
                   <Flex
                     valign="center"
@@ -149,12 +149,12 @@ class Home extends Component {
                       <ButtonLink
                         to="/docs/getting-started.html"
                         type="primary">
-                        Get Started
+                        さあ、はじめよう！
                       </ButtonLink>
                     </CtaItem>
                     <CtaItem>
                       <ButtonLink to="/tutorial/tutorial.html" type="secondary">
-                        Take the Tutorial
+                        手引きを読む
                       </ButtonLink>
                     </CtaItem>
                   </Flex>
