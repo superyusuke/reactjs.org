@@ -31,26 +31,19 @@ redirect_from:
 * [ゲームを完成させる](#completing-the-game) では、react 開発において多用される重要な技術をお伝えします。
 * [タイムトラベル機能を追加する](#adding-time-travel) では、この機能を追加する過程を通して react ならではの強みをより一層理解することができるでしょう。
 
-The tutorial is divided into several sections:
-
-* [Setup for the Tutorial](#setup-for-the-tutorial) will give you **a starting point** to follow the tutorial.
-* [Overview](#overview) will teach you **the fundamentals** of React: components, props, and state.
-* [Completing the Game](#completing-the-game) will teach you **the most common techniques** in React development.
-* [Adding Time Travel](#adding-time-travel) will give you **a deeper insight** into the unique strengths of React.
-
 一度でこの長いチュートリアルの全セクションを終わらせようとしなくても、やったらやった分だけ効果があります。自分のできる範囲でやってみてください。一つでも二つでもいいんです。
 
 チュートリアルに出てくるコードを、コピーアンドペーストして実行してもいいのですが、一行一行手動で入力することをおすすめします。そのほうが記憶に残りますし、より理解することができます。
 
 ### What Are We Building?
 
-In this tutorial, we'll show how to build an interactive tic-tac-toe game with React.
+React を使って3目並べゲームを作っていきましょう。これはユーザー操作を受付け、それに反応して進んでいく、インタラクティブなゲームです。
 
-You can see what we'll be building here: **[Final Result](https://codepen.io/gaearon/pen/gWWZgR?editors=0010)**. If the code doesn't make sense to you, or if you are unfamiliar with the code's syntax, don't worry! The goal of this tutorial is to help you understand React and its syntax.
+**[完成形](https://codepen.io/gaearon/pen/gWWZgR?editors=0010)** をこちらから見ることができます。完成形のコードを見て意味がわからなくても、使われているシンタックスが見慣れないものであっても、心配しないで大丈夫。このチュートリアルが終わる頃には、React のことも React のシンタックスも理解できていますから！
 
 チュートリアルを進める前にまずはゲームを実際にプレイしてみてください。盤面の右側に数字付きのリストがあることに気づくはずです。このリストは、ゲーム中に打たれた手の履歴です。ゲームが進むにつれて、このリストが更新されていきます。
 
-You can close the tic-tac-toe game once you're familiar with it. We'll be starting from a simpler template in this tutorial. Our next step is to set you up so that you can start building the game.
+ゲームの概要が理解できたら、タブを閉じて、まずはこのチュートリアルのために用意されたシンプルなテンプレートから作業を初めていきましょう。次のセクションで、その準備をしていきます。
 
 ### Prerequisites
 
