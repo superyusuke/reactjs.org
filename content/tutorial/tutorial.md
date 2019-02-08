@@ -1,6 +1,6 @@
 ---
 id: tutorial
-title: "Tutorial: Intro to React"
+title: "手引き: React への誘い"
 layout: tutorial
 sectionid: tutorial
 permalink: tutorial/tutorial.html
@@ -12,15 +12,17 @@ redirect_from:
   - "docs/tutorial-zh-CN.html"
 ---
 
-This tutorial doesn't assume any existing React knowledge.
+全く React の知識がない方でも読み進めることができます
 
 ## Before We Start the Tutorial
 
-We will build a small game during this tutorial. **You might be tempted to skip it because you're not building games -- but give it a chance.** The techniques you'll learn in the tutorial are fundamental to building any React apps, and mastering it will give you a deep understanding of React.
+始める前に
 
->Tip
+このチュートリアルではちょっとしたゲームを作っていくわけですが、もしも**「私はゲームなんて作らないから」と考えて飛ばそうとしているなら、ちょっと待ってください。**このチュートリアルを通して学ぶ内容は、あらゆる React アプリケーションの構築において基盤となるものです。そして、この基盤を習得することが、React を深く理解することにつながります。
+
+>助言
 >
->This tutorial is designed for people who prefer to **learn by doing**. If you prefer learning concepts from the ground up, check out our [step-by-step guide](/docs/hello-world.html). You might find this tutorial and the guide complementary to each other.
+>このチュートリアルは **手を動かしながら学習をしたい人** 向けに作られています。もし概念を一から学びたい場合には、[主要概念を順番に説明したガイド](/docs/hello-world.html) をご覧ください。本チュートリアルと、こちらの資料は補完関係にあります。
 
 本チュートリアルは以下のセクションにわかれています。
 
@@ -36,9 +38,9 @@ The tutorial is divided into several sections:
 * [Completing the Game](#completing-the-game) will teach you **the most common techniques** in React development.
 * [Adding Time Travel](#adding-time-travel) will give you **a deeper insight** into the unique strengths of React.
 
-You don't have to complete all of the sections at once to get the value out of this tutorial. Try to get as far as you can -- even if it's one or two sections.
+一度でこの長いチュートリアルの全セクションを終わらせようとしなくても、やったらやった分だけ効果があります。自分のできる範囲でやってみてください。一つでも二つでもいいんです。
 
-It's fine to copy and paste code as you're following along the tutorial, but we recommend to type it by hand. This will help you develop a muscle memory and a stronger understanding.
+チュートリアルに出てくるコードを、コピーアンドペーストして実行してもいいのですが、一行一行手動で入力することをおすすめします。そのほうが記憶に残りますし、より理解することができます。
 
 ### What Are We Building?
 
@@ -46,7 +48,7 @@ In this tutorial, we'll show how to build an interactive tic-tac-toe game with R
 
 You can see what we'll be building here: **[Final Result](https://codepen.io/gaearon/pen/gWWZgR?editors=0010)**. If the code doesn't make sense to you, or if you are unfamiliar with the code's syntax, don't worry! The goal of this tutorial is to help you understand React and its syntax.
 
-We recommend that you check out the tic-tac-toe game before continuing with the tutorial. One of the features that you'll notice is that there is a numbered list to the right of the game's board. This list gives you a history of all of the moves that have occurred in the game, and is updated as the game progresses.
+チュートリアルを進める前にまずはゲームを実際にプレイしてみてください。盤面の右側に数字付きのリストがあることに気づくはずです。このリストは、ゲーム中に打たれた手の履歴です。ゲームが進むにつれて、このリストが更新されていきます。
 
 You can close the tic-tac-toe game once you're familiar with it. We'll be starting from a simpler template in this tutorial. Our next step is to set you up so that you can start building the game.
 
