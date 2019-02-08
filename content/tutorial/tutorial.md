@@ -22,6 +22,12 @@ We will build a small game during this tutorial. **You might be tempted to skip 
 >
 >This tutorial is designed for people who prefer to **learn by doing**. If you prefer learning concepts from the ground up, check out our [step-by-step guide](/docs/hello-world.html). You might find this tutorial and the guide complementary to each other.
 
+本チュートリアルはいくつかのセクションにわかれています
+・環境設定；チュートリアルをはじめるにあたっての環境を設定します。
+・概説；コンポーネント、props、stateというreactの基本を説明します。
+・ゲームを完成させる；react開発における一般的な技術を説明します。
+・時系列に囚われない；reactの特徴的な強みがより見えてきます。
+
 The tutorial is divided into several sections:
 
 * [Setup for the Tutorial](#setup-for-the-tutorial) will give you **a starting point** to follow the tutorial.
