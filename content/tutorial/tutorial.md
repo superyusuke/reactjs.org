@@ -22,11 +22,12 @@ We will build a small game during this tutorial. **You might be tempted to skip 
 >
 >This tutorial is designed for people who prefer to **learn by doing**. If you prefer learning concepts from the ground up, check out our [step-by-step guide](/docs/hello-world.html). You might find this tutorial and the guide complementary to each other.
 
-本チュートリアルはいくつかのセクションにわかれています
-・環境設定；チュートリアルをはじめるにあたっての環境を設定します。
-・概説；コンポーネント、props、stateというreactの基本を説明します。
-・ゲームを完成させる；react開発における一般的な技術を説明します。
-・時系列に囚われない；reactの特徴的な強みがより見えてきます。
+本チュートリアルは以下のセクションにわかれています。
+
+* [環境設定](#setup-for-the-tutorial) では、チュートリアルをはじめるにあたって必要な環境の設定方法を解説します。
+* [概説](#overview) では、コンポーネント、props、state といった react の基盤となる概念を説明します。
+* [ゲームを完成させる](#completing-the-game) では、react 開発において多用される重要な技術をお伝えします。
+* [タイムトラベル機能を追加する](#adding-time-travel) では、この機能を追加する過程を通して react ならではの強みをより一層理解することができるでしょう。
 
 The tutorial is divided into several sections:
 
