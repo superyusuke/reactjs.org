@@ -57,7 +57,7 @@ class Home extends Component {
         <div css={{width: '100%'}}>
           <header
             css={{
-              backgroundColor: colors.dark,
+              backgroundColor: colors.topRed,
               color: colors.white,
             }}>
             <div

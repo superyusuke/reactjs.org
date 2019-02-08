@@ -12,6 +12,7 @@
 import hex2rgba from 'hex2rgba';
 
 const colors = {
+  topRed: '#ff2a52',
   lighter: '#373940', // light blue
   dark: '#282c34', // dark blue
   darker: '#20232a', // really dark blue
