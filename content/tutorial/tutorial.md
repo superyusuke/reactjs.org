@@ -47,9 +47,15 @@ React を使って3目並べゲームを作っていきましょう。これは�
 
 ### Prerequisites
 
-We'll assume that you have some familiarity with HTML and JavaScript, but you should be able to follow along even if you're coming from a different programming language. We'll also assume that you're familiar with programming concepts like functions, objects, arrays, and to a lesser extent, classes.
+期待する前提知識について
 
-If you need to review JavaScript, we recommend reading [this guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript). Note that we're also using some features from ES6 -- a recent version of JavaScript. In this tutorial, we're using [arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions), [classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes), [`let`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let), and [`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const) statements. You can use the [Babel REPL](babel://es5-syntax-example) to check what ES6 code compiles to.
+ある程度 HTML と JavaScript に慣れている前提で進めていきますが、全くそれらの知識がない方も理解することは出来る内容になっています。もちろん JavaScript 以外のプログラミング言語の経験をお持ちの方で、JavaScript に馴染みのない方にも対応できるものになっているはずです。ただし、プログラミングの基礎的な概念、つまり関数・オブジェクト・配列といったプログラミングの概念、それから多少クラスについても知識を持っていることを前提としています。 
+
+JavaScript を復習したい場合には、[MDN のこの手引き](https://developer.mozilla.org/ja/docs/Web/JavaScript/A_re-introduction_to_JavaScript) をおすすめします。
+このチュートリアルでは、さらに JavaScript の新しいバージョンであるES6の機能をいくつか導入していますので、これらについて確認したい場合には[arrow functions](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Functions/Arrow_functions), [classes](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Classes), [`let`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let), [`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const) をご覧ください。 また、[Babel REPL](babel://es5-syntax-example) を使うことでこれらの新しい ES6 のシンタックスがコンパイルされた結果を見ることができます。
+
+またこの React ドキュメント翻訳チームのリーダーが主催する [JavaScript 基礎練習問題集](https://uncle-javascript.com/JS%20Terakoya) も推奨させていただきます。
+
 
 ## Setup for the Tutorial
 
