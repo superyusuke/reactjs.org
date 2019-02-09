@@ -26,7 +26,7 @@ redirect_from:
 
 本チュートリアルは以下のセクションにわかれています。
 
-* [環境設定](#setup-for-the-tutorial) では、チュートリアルをはじめるにあたって必要な環境の設定方法を解説します。
+* [環境構築](#setup-for-the-tutorial) では、チュートリアルをはじめるにあたって必要な開発環境の構築方法について解説します。
 * [概説](#overview) では、コンポーネント、props、state といった react の基盤となる概念を説明します。
 * [ゲームを完成させる](#completing-the-game) では、react 開発において多用される重要な技術をお伝えします。
 * [タイムトラベル機能を追加する](#adding-time-travel) では、この機能を追加する過程を通して react ならではの強みをより一層理解することができるでしょう。
@@ -36,6 +36,8 @@ redirect_from:
 チュートリアルに出てくるコードを、コピーアンドペーストして実行してもいいのですが、一行一行手動で入力することをおすすめします。そのほうが記憶に残りますし、より理解することができます。
 
 ### What Are We Building?
+
+作るもの
 
 React を使って3目並べゲームを作っていきましょう。これはユーザー操作を受付け、それに反応して進んでいく、インタラクティブなゲームです。
 
@@ -59,15 +61,19 @@ JavaScript を復習したい場合には、[MDN のこの手引き](https://dev
 
 ## Setup for the Tutorial
 
-There are two ways to complete this tutorial: you can either write the code in your browser, or you can set up a local development environment on your computer.
+チュートリアルのための環境構築
+
+このチュートリアルに取り組む方法は2つあります。コードをブラウザ上で書く方法(訳注：Codepenを使っていく方法です)、もしくはローカル開発環境を作りそこでコーディングする方法の２つです。
 
 ### Setup Option 1: Write Code in the Browser
 
-This is the quickest way to get started!
+選択肢 1: ブラウザ上でコードを書く
 
-First, open this **[Starter Code](https://codepen.io/gaearon/pen/oWWQNa?editors=0010)** in a new tab. The new tab should display an empty tic-tac-toe game board and React code. We will be editing the React code in this tutorial.
+これが、一番早く始めることのできる方法です。
 
-You can now skip the second setup option, and go to the [Overview](#overview) section to get an overview of React.
+まずは **[Starter Code](https://codepen.io/gaearon/pen/oWWQNa?editors=0010)** を新規タブで開いてください。すると空の三目並べゲームの盤面と React のコードが表示されます。このコードをチュートリアルの中で書き換えていきます。
+
+この方法を選ぶ場合には、もう一つの選択肢である、次のローカル開発環境構築のセクションは飛ばして [Overview](#overview) へ進み、React の概要を把握していきましょう。
 
 ### Setup Option 2: Local Development Environment
 

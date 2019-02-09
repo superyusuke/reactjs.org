@@ -1,25 +1,25 @@
 - title: Tutorial
   items:
     - id: before-we-start-the-tutorial
-      title: Before We Start the Tutorial
+      title: 始める前に
       href: /tutorial/tutorial.html#before-we-start-the-tutorial
       forceInternal: true
       subitems:
         - id: what-are-we-building
-          title: What Are We Building?
+          title: 作るもの
           href: /tutorial/tutorial.html#what-are-we-building
           forceInternal: true
         - id: prerequisites
-          title: Prerequisites
+          title: 期待する前提知識について
           href: /tutorial/tutorial.html#prerequisites
           forceInternal: true
     - id: setup-for-the-tutorial
-      title: Setup for the Tutorial
+      title: チュートリアルのための環境構築
       href: /tutorial/tutorial.html#setup-for-the-tutorial
       forceInternal: true
       subitems:
         - id: setup-option-1-write-code-in-the-browser
-          title: "Option 1: Write Code in the Browser"
+          title: "選択肢 1: ブラウザ上でコードを書く"
           href: /tutorial/tutorial.html#setup-option-1-write-code-in-the-browser
           forceInternal: true
         - id: setup-option-2-local-development-environment
