@@ -23,7 +23,7 @@
           href: /tutorial/tutorial.html#setup-option-1-write-code-in-the-browser
           forceInternal: true
         - id: setup-option-2-local-development-environment
-          title: "Option 2: Local Development Environment"
+          title: "選択肢 2: ローカル開発環境を構築する"
           href: /tutorial/tutorial.html#setup-option-2-local-development-environment
           forceInternal: true
         - id: help-im-stuck

@@ -56,7 +56,7 @@ React を使って3目並べゲームを作っていきましょう。これは�
 JavaScript を復習したい場合には、[MDN のこの手引き](https://developer.mozilla.org/ja/docs/Web/JavaScript/A_re-introduction_to_JavaScript) をおすすめします。
 このチュートリアルでは、さらに JavaScript の新しいバージョンであるES6の機能をいくつか導入していますので、これらについて確認したい場合には[arrow functions](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Functions/Arrow_functions), [classes](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Classes), [`let`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let), [`const`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const) をご覧ください。 また、[Babel REPL](babel://es5-syntax-example) を使うことでこれらの新しい ES6 のシンタックスがコンパイルされた結果を見ることができます。
 
-またこの React ドキュメント翻訳チームのリーダーが主催する [JavaScript 基礎練習問題集](https://uncle-javascript.com/JS%20Terakoya) も推奨させていただきます。
+（またこの React ドキュメント翻訳チームのリーダーが主催する [JavaScript 基礎練習問題集](https://uncle-javascript.com/JS%20Terakoya) も推奨させていただきます。）
 
 
 ## Setup for the Tutorial
@@ -77,46 +77,48 @@ JavaScript を復習したい場合には、[MDN のこの手引き](https://dev
 
 ### Setup Option 2: Local Development Environment
 
-This is completely optional and not required for this tutorial!
+選択肢 2: ローカル開発環境を構築する
+
+ローカル開発環境の構築は、このチュートリアルをする上で必須ではありません。完全に任意の選択肢です。
 
 <br>
 
 <details>
 
-<summary><b>Optional: Instructions for following along locally using your preferred text editor</b></summary>
+<summary><b>必須ではありません: ローカルで自分の好きなテキストエディター使って開発すための手順</b></summary>
 
-This setup requires more work but allows you to complete the tutorial using an editor of your choice. Here are the steps to follow:
+この環境構築の選択肢はもう一方の選択肢と比べてしなくてはいけない作業は多いのですが、自分の選んだエディターで作業ができるという利点はあります。次の作業をおこなってください。
 
-1. Make sure you have a recent version of [Node.js](https://nodejs.org/en/) installed.
-2. Follow the [installation instructions for Create React App](/docs/create-a-new-react-app.html#create-react-app) to make a new project.
+1. 最近のバージョンの [Node.js](https://nodejs.org/en/) をインストールします。
+2. 次の [Create React App の導入方法](/docs/create-a-new-react-app.html#create-react-app) という記事に従って、新しいプロジェクトを作成します。（訳注：単に以下のコマンドを実行するだけでオッケーです。） 
 
 ```bash
 npx create-react-app my-app
 ```
 
-3. Delete all files in the `src/` folder of the new project 
+3. 新しく作成したプロジェクトの `src/` フォルダ以下にある全ファイルを削除します。 
 
-> Note: **don't delete the entire `src` folder, just the original source files inside it.**.  We'll replace the default source files with examples for this project in the next step.
+> 注意: `src` フォルダーそのものは削除しないでください。削除するのは `src` フォルダー内にもとからあるファイルのみです。これから `src` フォルダの下に、このチュートリアルプロジェクトで必要なサンプルコードを配置していくからです。
 
 ```bash
 cd my-app
 cd src
 
-# If you're using a Mac or Linux:
+# Mac もしくは Linux をお使いの方は:
 rm -f *
 
-# Or, if you're on Windows:
+# Windows をお使いの方は:
 del *
 
-# Then, switch back to the project folder
+# その後、プロジェクトフォルダに戻りましょう
 cd ..
 ```
 
-4. Add a file named `index.css` in the `src/` folder with [this CSS code](https://codepen.io/gaearon/pen/oWWQNa?editors=0100).
+4. `index.css` というファイルを作成し `src/` フォルダの下に配置し、[this CSS code](https://codepen.io/gaearon/pen/oWWQNa?editors=0100) の内容をコピペする。
 
-5. Add a file named `index.js` in the `src/` folder with [this JS code](https://codepen.io/gaearon/pen/oWWQNa?editors=0010).
+5. `index.js`  というファイルを作成し `src/` フォルダの下に配置し、[this JS code](https://codepen.io/gaearon/pen/oWWQNa?editors=0010) の内容をコピペする。
 
-6. Add these three lines to the top of `index.js` in the `src/` folder:
+6. 次の三行のコードを先ほど作った `src/index.js` の冒頭にコピペする。
 
 ```js
 import React from 'react';
@@ -124,9 +126,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 ```
 
-Now if you run `npm start` in the project folder and open `http://localhost:3000` in the browser, you should see an empty tic-tac-toe field.
+ここまで準備が整ったら、プロジェクトフォルダで `npm start` を実行して http://localhost:3000 をブラウザで開けば、空の三目並べゲームの盤面が現れます。
 
-We recommend following [these instructions](https://babeljs.io/docs/editors/) to configure syntax highlighting for your editor.
+また、次の記事 [these instructions](https://babeljs.io/docs/editors/) を読んで、エディターのハイライト機能を設定しておくこともおすすめします。
 
 </details>
 
